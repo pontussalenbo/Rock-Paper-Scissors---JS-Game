@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+header > h1 {
+    color: #24272E;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #24272E;
+    font-family: 'Courier New', Courier, monospace;
+}
+.scoreboard {
+    border: 3px solid white;
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+
+.badge {
+    background: red;
+    font-size: 14px;
+    color: white;
+    padding: 2px 10px;
+}
+
+#user-label {
+    position: absolute;
+    top: 35px;
+    left: -25px;
+    border-radius: 3px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 35px;
+    left: 150px;
+    border-radius: 3px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+}
+
+.result > p {
+    text-align: center;
+}
+
+.choices {
+    text-align: center;
+    margin: 50px 0px;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.choice {
+    cursor: pointer;
+    display: inline-block;
+    border: 4px solid white;
+    margin: 0 15px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.choice > p {
+    margin: 0 20px;
+}
+
+.choice:hover {
+    color: grey;
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+.green-glow {
+    border: 4px solid green;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.yellow-glow {
+    border: 4px solid orange;
+    box-shadow: 4px solid orange;    
+}
+
+.red-glow {
+    border: 4px solid red;
+    box-shadow: 4px solid red;    
+}
+
+
+
+
+
+
+
+
+
